@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>User Feedback Form</title>
+<link rel="icon" href="my bot.jpg">
+<style>
+    body{
+          font-family: Arial, sans-serif;
+          background-color: #94dbff;
+          padding: 20px;
+    }
+
+    form {
+          background-color: #caecfc;
+          padding: 20px;
+          border-radius: 10px;
+          max-width: 600px; 
+          margin: auto; /* Centers the form on the page */
+          box-shadow: 0 0 10px rgba(0,0,0,0.2); /* Adds a soft shadow around the box */
+         }
+
+    textarea{
+         width: 100%; /*Makes the comment box stretch full width */
+         height: 150px; 
+        background-color: #f9f9f9;
+        border: 1px solid #ccc;/* Gray border around the box */
+        padding: 10px; /* Space inside the box so text isn’t against the edge */
+         border-radius: 5px; /* Slightly rounded corners */
+        font-size: 16px; /* Text size inside the comment box */
+    }
+
+    input[type="submit"]:hover, input[type="reset"]:hover{
+      background-color: #afcddb;  
+    }
+</style>
+    <center><a href="index.html">Homepage</a></center>
+
+<h1 style = "text-align:center;">Leave a Comment</h1>
+
+
+<form>
+    <!--- Dropdown -->
+    <label for ="character">Who is your favorite fighter?</label><br>
+    <select id="character" name="character">
+    <option value="rimuru">Rimuru Tempest</option>
+    <option value="gojo">Gojo Satoru</option>
+    <option value="goku">Son Goku</option>
+    <option value="jinwoo">Sung Jin-Woo</option>
+    <option value="yogiri">Yogiri Takatou</option>
+    </select>
+    <br><br>
+    <input type="submit">
+    <input type="reset"value="reset">
+</form>
+
